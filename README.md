@@ -1,6 +1,6 @@
 # Teste final
 
-<div style="display: flex; align-itens: center; justify-content: center;">
+<div align="center">
 
 <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png" width="70%" />
 </div>
