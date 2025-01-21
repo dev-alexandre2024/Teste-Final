@@ -1,4 +1,4 @@
-const dados = []
+const dados = JSON.parse(localStorage.getItem('cadastros')) || []
 
 // TELA DE CADASTRO 
 const formCadastro = document.getElementById('form-cadastro')
