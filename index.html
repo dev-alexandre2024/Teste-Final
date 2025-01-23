@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste-final</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form action="home.html" id="form-login" auto>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email-login" required>
-        <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha-Login" required>
-        <button type="submit" id="btn-login">Entrar</button>
+    <form action="home.html" id="form-login" autocomplete="off">
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email-login" required placeholder="Digite seu email">
+        </p>
+
+        <p>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha-Login" required placeholder="Digite sua senha">
+        </p>
+
+        <p><button type="submit" id="btn-login">Entrar</button></p>
     </form>
 </body>
 </html>
