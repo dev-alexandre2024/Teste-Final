@@ -45,3 +45,23 @@ p{
   font-weight: bold;
 
 }
+
+/* ADICIONANDO NOVAS ESTILIZAÇÕES */
+
+.novo-usuario {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.novo-usuario a {
+  width: 100%;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
