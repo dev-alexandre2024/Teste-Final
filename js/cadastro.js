@@ -27,7 +27,7 @@ function SalvarDados(event) {
     localStorage.setItem('cadastros', JSON.stringify(dados)); 
 }
 
-btnCadastro.addEventListener('click', function cadastrar(event) {
+btnCadastro.addEventListener('click', function login(event) {
     event.preventDefault();
 
     SalvarDados(event);
